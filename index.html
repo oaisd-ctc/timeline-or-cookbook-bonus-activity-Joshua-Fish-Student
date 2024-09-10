@@ -7,10 +7,10 @@
         <link rel="stylesheet" href="./styles/styles.css">
     </head>
     <body>
-        <a href="https://www.google.com"><button data-bs-trigger="hover" data-bs-placement="right" id="one" type="button" class="btn btn-dark" data-bs-toggle="object" title="Item 1" data-bs-content="Stuff about item 1">Item 1</button></a>
-        <a href="https://www.google.com"><button data-bs-trigger="hover" data-bs-placement="left" id="two" type="button" class="btn btn-dark" data-bs-toggle="object" title="Item 2" data-bs-content="Stuff about item 2">Item 2</button></a>
-        <a href="https://www.google.com"><button data-bs-trigger="hover" data-bs-placement="right" id="three" type="button" class="btn btn-dark" data-bs-toggle="object" title="Item 3" data-bs-content="Stuff about item 3">Item 3</button></a>
-        <a href="https://www.google.com"><button data-bs-trigger="hover" data-bs-placement="left" id="four" type="button" class="btn btn-dark" data-bs-toggle="object" title="Item 4" data-bs-content="Stuff about item 4">Item 4</button></a>
+        <a href="https://www.google.com" data-bs-trigger="hover" data-bs-placement="right" id="one" class="btn btn-dark" data-bs-toggle="object" title="Item 1" data-bs-content="Stuff about item 1">Item 1</a>
+        <a href="https://www.google.com" data-bs-trigger="hover" data-bs-placement="left" id="two" class="btn btn-dark" data-bs-toggle="object" title="Item 2" data-bs-content="Stuff about item 2">Item 2</a>
+        <a href="https://www.google.com" data-bs-trigger="hover" data-bs-placement="right" id="three" class="btn btn-dark" data-bs-toggle="object" title="Item 3" data-bs-content="Stuff about item 3">Item 3</a>
+        <a href="https://www.google.com" data-bs-trigger="hover" data-bs-placement="left" id="four" class="btn btn-dark" data-bs-toggle="object" title="Item 4" data-bs-content="Stuff about item 4">Item 4</a>
         <script>
             var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="object"]'))
             var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
